@@ -1,6 +1,6 @@
 const header = document.getElementById('main-header');
 
-// Efeito de encolher o header ao scrollar
+// Efeito de encolher o header ao scrollar 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 80) {
         header.classList.add('shrink');

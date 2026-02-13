@@ -102,6 +102,15 @@
         .nav-link { color: var(--white); font-weight: 600; text-transform: uppercase; font-size: 0.8rem; text-decoration: none;}
 
         /* --- CONTEÚDO --- */
+	.about-text {
+   	    text-align: justify;
+   	    text-justify: inter-word;
+   	    line-height: 1.8;
+   	    font-size: 1.15rem;
+   	    color: #444;
+   	    max-width: 850px;
+   	    margin: 0 auto;
+	}
         .main-wrapper {
             margin-top: 100vh; /* Mantém o hero ocupando a tela inicial */
             position: relative;
@@ -171,7 +180,7 @@
         .timeline-header h3 { color: var(--cafe); font-size: 1.25rem; }
         .timeline-header span { color: var(--azul-ceu); font-size: 0.9rem; font-weight: 700; }
         .timeline-role { color: var(--azul-marinho); font-weight: 700; display: block; margin-bottom: 12px; text-transform: uppercase; font-size: 0.95rem; }
-        .timeline-desc li { margin-bottom: 8px; color: #444; font-size: 1rem; list-style: none; padding-left: 20px; position: relative;}
+        .timeline-desc li { margin-bottom: 10px; color: #444; font-size: 1rem; list-style: none; padding-left: 20px; padding-right: 10px; position: relative; text-align: justify; text-justify: inter-word;}
         .timeline-desc li::before { content: '—'; position: absolute; left: 0; color: var(--marrom-claro); }
 
         /* --- GRID LADO A LADO (Formação e Idiomas) --- */
@@ -239,7 +248,7 @@
             <div class="container">
                 <div class="flat-panel reveal-item">
                     <div class="section-title"><h2>Resumo Profissional</h2></div>
-                    <p style="text-align: center; line-height: 1.8; font-size: 1.15rem; color: #444;">
+                    <p class="about-text">
                         Estudante de Engenharia da Computação (UFMT) com foco em desenvolvimento web <strong>Full Stack</strong>. 
                         Experiência prática na construção de aplicações utilizando <strong>React.js, Node.js, TypeScript e PostgreSQL</strong>, com conteinerização em <strong>Docker</strong>. 
                         Atualmente desenvolve soluções de software para portfólio e realiza estudos práticos em automação (<strong>Python</strong>) aplicados a cenários de negócios. 
